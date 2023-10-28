@@ -1,14 +1,14 @@
-## ** Project Overview
+## Project Overview
 
 This project implements a Convolutional Neural Network (CNN) for brain tumor detection using medical images. The dataset consists of brain images categorized into classes based on the presence or absence of tumors. The model is built using the TensorFlow and Keras frameworks. The architecture utilizes a pre-trained ResNet50V2 model for feature extraction.
 
-## ** Files and Directories
+## Files and Directories
 
 - **Utils.ipynb**: Jupyter Notebook containing utility functions for data preprocessing, model training, and visualization.
 - **BTD_001.zip**: Dataset containing brain images categorized into classes.
 - **Readme.md**: Project readme file explaining the project overview, file structure, and usage instructions.
 
-## ** Steps to Run the Code
+## Steps to Run the Code
 
 ### 1. **Data Preparation**:
    - The `BTD_001.zip` file contains the dataset. Unzip the file to the specified directory in the notebook.
@@ -34,7 +34,7 @@ This project implements a Convolutional Neural Network (CNN) for brain tumor det
    - Model performance is evaluated using the test set, and accuracy is displayed.
    - Predictions are visualized using sample images from the validation set.
 
-## ** Requirements
+## Requirements
 
 - Python 3.x
 - TensorFlow 2.x
@@ -44,7 +44,7 @@ This project implements a Convolutional Neural Network (CNN) for brain tumor det
 - Plotly
 - Scikit-learn
 
-## ** Usage
+## Usage
 
 1. Clone the repository: `git clone <repository-url>`<br>
 2. Navigate to the project directory: `cd <repository-folder>`<br>
